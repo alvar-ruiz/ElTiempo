@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito/Nunito-Regular.ttf); }
+body {
+  font-family: Nunito;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 5em;
+  text-align: center; }
+
+main > p {
+  font-size: 2.5em; }
+
+button {
+  border: 7px solid skyblue;
+  font-family: inherit;
+  margin: 0.5em auto;
+  font-size: 2.5em;
+  width: 100%;
+  height: 2em;
+  background-color: aliceblue; }
+
+button:active {
+  border: 7px solid aliceblue;
+  background-color: skyblue; }
+
+.contInfo > :first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contInfo > :first-child div {
+    margin: 0 0.5em; }
+  .contInfo > :first-child > :first-child {
+    font-size: 8em;
+    font-weight: bold; }
+  .contInfo > :first-child > :last-child {
+    width: 25%; }
+    .contInfo > :first-child > :last-child img {
+      width: 100%; }
+.contInfo > :last-child {
+  font-size: 1.5em; }
+  .contInfo > :last-child > :first-child {
+    font-weight: bold; }
+  .contInfo > :last-child > :last-child {
+    margin-bottom: 3em; }
+
+/*# sourceMappingURL=style_tiempo.css.map */
